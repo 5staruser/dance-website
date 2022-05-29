@@ -1,0 +1,133 @@
+*{
+    font-family: 'Moon Dance', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    padding: 12px 13px; 
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    padding: 2px 11px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px 19px;
+}
+a:hover{
+    border: 8px solid black;
+    border-radius: 7px;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 12px;
+    font-size: 27px;
+    margin-right: 39px;
+}
+#logo img{
+    height: 41px;
+}
+#intro{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 424px;
+}
+#intro h2{
+    font-size: 4rem;
+    font-weight: bold;
+}
+#intro::before{
+    content: "";
+    position: absolute;
+    background: url("https://wallpaperaccess.com/full/4792521.jpg") center center/cover;
+    height: 66%;
+    width: 100%;
+    top: 0;
+    opacity: 0.6;
+    z-index: -1;
+}
+#intro .small{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 4px;
+}
+#mission{
+    height: 325px;
+    width: 66%;
+    margin: auto;
+}
+#mission h2{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 11px;
+}
+.card{
+    border: 8px solid black;
+    border-radius: 9px;
+    height: 208px;
+    margin: 22px 19px;
+    width: 29%;
+}
+#ourmission{
+    display: flex;
+    flex-direction: row;
+}
+.card h3{
+    margin: 1px 0px;
+    text-align: center;
+    margin-top: 1px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img img{
+    height: 158px;
+    padding: 14px -9px;
+    margin: 1px 1px;
+    width: 206px;
+}
+.card-content{
+    font-weight: bold;
+}
+#clients{
+    height: 208px;
+    background-color:pink;
+    text-align: center;
+    font-size: bold;
+}
+.sponsors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.spimages img{
+    height: 108px;
+    margin: 20px;
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 99px;
+    font-weight: bold;
+    color: white;
+}

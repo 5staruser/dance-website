@@ -1,0 +1,46 @@
+*{
+    font-family: 'Moon Dance', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.container{
+    margin: 42px 0;
+    min-height: 74vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    font-size: 32px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.forminput{
+    width: 50%;
+    font-size: 15px;
+    padding: 8px;
+    margin: 6px;
+    border: 2px solid black;
+    border-radius: 11px;
+    outline: none;
+}
+.btn{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 7px 15px;
+    font-size: 17px;
+    border: 2px solid white;
+    border-radius: 9px;
+    margin: 25px;
+}
